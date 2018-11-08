@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: index.docker.io/lwander/spin-kub-v2-demo
+        image: index.docker.io/skurtzemann/spin-kub-v2-demo
         ports:
         - containerPort: 8000
         readinessProbe:
@@ -57,5 +57,3 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 8000
-
-# update for spinnaker 
