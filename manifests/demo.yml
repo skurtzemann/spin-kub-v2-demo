@@ -18,7 +18,7 @@ metadata:
     stack: frontend
     app: spinnaker
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       source: demo
